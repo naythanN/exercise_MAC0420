@@ -1,0 +1,43 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Exemplo de uso de input range</title>
+	<link rel="stylesheet" href="./estilo.css" type="text/css">
+	<script src="interface.js" defer></script>
+</head>
+
+<body>
+	<h3>Usando o tipo range do elemento input</h3>
+	<hr>
+	<p>Interface</p>
+
+	<p>
+		<input id="Barra R" type="range" value="127" min="0" max="255" step="1" name="Vermelho"></input>
+		<label for="redLabel">Red</label>
+		</br>
+
+		<input id="Barra G" type="range" value="127" min="0" max="255" step="1" name="Verde"></input>
+		<label for="greenLabel">Green</label>
+		</br>
+
+		<input id="Barra B" type="range" value="127" min="0" max="255" step="1" name="Azul"></input>
+		<label for="blueLabel">Blue</label>
+		</br>
+	</p>
+
+    <p>
+        <input id="passo" type="range" value="1" min="1" max="50" step="1" name="Passo"> </input>
+        <label for="passoLabel">Passo</label>
+        </br>
+    </p>
+
+	<hr>
+	<p>Canvas</p>
+	<canvas id="meucanvas" width="200" height="150">
+		Opa! pode parece que seu navegador não suporta o canvas do HTML5.
+	</canvas>
+	<hr>
+</body>
+
+</html>
